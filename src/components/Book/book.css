@@ -1,0 +1,36 @@
+body {
+  color: #dfdfdf;
+  background-color: #111;
+}
+.alert,
+#price,
+#Description,
+.alertColor {
+  background-color: #333;
+  color: #aaa;
+}
+.side-line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: #dfdfdf;
+}
+.title {
+  font-size: 1.5em;
+  color: #dfdfdf;
+}
+.c-main {
+  color: #dfdfdf;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.552);
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+.warnning {
+  color: #897215;
+}
